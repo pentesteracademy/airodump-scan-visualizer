@@ -1,0 +1,78 @@
+@namespace ns "http://flex.apache.org/experimental/ns";
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+@namespace flatspark "flatspark.components.*";
+
+s|Button {
+    skinClass: ClassReference("flatspark.skins.ButtonSkin");
+}
+
+s|TextInput {
+    skinClass: ClassReference("flatspark.skins.TextInputSkin");
+    paddingLeft: 3;
+    paddingBottom: 0;
+    paddingRight: 0;
+    paddingTop: 0;
+}
+
+flatspark|TextInputIcon{
+    paddingLeft: 3;
+    paddingBottom: 0;
+    paddingRight: 0;
+    paddingTop: 0;
+}
+
+s|CheckBox {
+    skinClass: ClassReference("flatspark.skins.CheckBoxSkin");
+}
+
+s|RadioButton {
+    skinClass: ClassReference("flatspark.skins.RadioButtonSkin");
+}
+
+s|CheckBox {
+    skinClass: ClassReference("flatspark.skins.CheckBoxSkin");
+}
+
+s|RadioButton {
+    skinClass: ClassReference("flatspark.skins.RadioButtonSkin");
+}
+
+s|TitleWindow {
+    skinClass: ClassReference("flatspark.skins.TitleWindowSkin");
+}
+
+s|Panel {
+    skinClass: ClassReference("flatspark.skins.PanelSkin");
+}
+
+s|ComboBox {
+    skinClass: ClassReference("flatspark.skins.ComboBoxSkin");
+}
+
+s|DropDownList {
+    skinClass: ClassReference("flatspark.skins.DropDownListSkin");
+}
+
+ns|ProgressBar {
+    skinClass: ClassReference("flatspark.skins.ProgressBarSkin");
+}
+
+ns|Alert {
+    skinClass: ClassReference("flatspark.skins.AlertSkin");
+}
+
+/*
+s|Scroller{
+    skinClass: ClassReference("flatspark.skins.ScrollerSkin");
+}*/
+
+
+
+global{
+    modal-transparency: 0.4;
+    modal-transparency-blur: 1;
+    modal-transparency-color: #000000;
+    focusThickness: 0;
+    color: #34495E;
+}
